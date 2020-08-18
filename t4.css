@@ -1,0 +1,119 @@
+body,
+    html {
+        height: 100%;
+        background-image: url(../t4/e2.png);
+        background-size: cover;
+        /* overflow: auto; */
+    }
+
+    .top-nav-collapse {
+      background-color: #3d58f0 ;
+    }
+    
+    .navbar:not(.top-nav-collapse) {
+      background: rgba(238, 150, 49, 0.596) ;
+    }
+
+    .bg1 {
+        background-image: url(../t4/a.png);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+
+    
+
+      .gba-gradient {
+        background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+        background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+        background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+      }
+
+    .btn{
+        margin-left: 2px;
+    }
+
+    .rgba-gradient {
+        background: -moz-linear-gradient(45deg, rgba(161, 87, 27, 0.7), rgba(210, 132, 29, 0.7) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(161, 92, 27, 0.7), rgba(210, 162, 29, 0.7) 100%);
+        background: -webkit-gradient(linear, 45deg, from(rgba(161, 119, 27, 0.7)), to(rgba(210, 153, 29, 0.7)));
+        background: -o-linear-gradient(45deg, rgba(161, 130, 27, 0.7), rgba(210, 177, 29, 0.7) 100%);
+        background: linear-gradient(to 45deg, rgba(161, 130, 27, 0.7), rgba(210, 177, 29, 0.7) 100%);
+      }
+
+      .btn-white {
+        color: rgb(241, 233, 233) !important;
+      }
+
+    .bg2 {
+        background-image: url(../t4/b.png);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .bg3 {
+        background-image: url(../t4/c.png);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bg4 {
+        background-image: url(../t4/d.png);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .card {
+      background-color: rgba(126, 123, 215, 0.2);
+      background: transparent;
+    }
+
+    .md-form label {
+        color: #0a010156;
+      }
+
+    .button2:hover {
+        color: rgba(172, 100, 100, 0.452);
+    }
+
+    .bg5 {
+        background-image: url(../t4/e.png);
+        height: 5%;
+    }
+
+    .class body{
+
+    }
+    
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+      }
+    }
